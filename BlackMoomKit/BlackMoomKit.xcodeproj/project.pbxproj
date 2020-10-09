@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260DBA4C25305B0300CA2685 /* BMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA4B25305B0300CA2685 /* BMButton.m */; };
+		260DBA5025305B1A00CA2685 /* BMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA4F25305B1A00CA2685 /* BMView.m */; };
+		260DBA5425305B2900CA2685 /* BMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA5325305B2900CA2685 /* BMLabel.m */; };
+		260DBA5825305B3800CA2685 /* BMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA5725305B3800CA2685 /* BMTextField.m */; };
+		260DBA5C25305B4A00CA2685 /* BMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA5B25305B4A00CA2685 /* BMTextView.m */; };
+		260DBA6025305B5E00CA2685 /* BMImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA5F25305B5E00CA2685 /* BMImageView.m */; };
+		260DBA6A25305BC300CA2685 /* BMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA6925305BC300CA2685 /* BMTableView.m */; };
+		260DBA6F25305BDC00CA2685 /* BMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA6E25305BDC00CA2685 /* BMTableViewCell.m */; };
+		260DBA7325305BF700CA2685 /* BMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA7225305BF700CA2685 /* BMColor.m */; };
+		260DBA782530614000CA2685 /* BMThem.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA772530614000CA2685 /* BMThem.m */; };
+		260DBA7D2530643400CA2685 /* BMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 260DBA7C2530643400CA2685 /* BMImage.m */; };
+		26D55995224363C600E6A7DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D55994224363C600E6A7DB /* AppDelegate.m */; };
+		26D55998224363C600E6A7DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D55997224363C600E6A7DB /* ViewController.m */; };
+		26D5599B224363C600E6A7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D55999224363C600E6A7DB /* Main.storyboard */; };
+		26D5599D224363C800E6A7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D5599C224363C800E6A7DB /* Assets.xcassets */; };
+		26D559A0224363C800E6A7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D5599E224363C800E6A7DB /* LaunchScreen.storyboard */; };
+		26D559A3224363C800E6A7DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D559A2224363C800E6A7DB /* main.m */; };
+		26D559AC22436E5300E6A7DB /* BMKitBaseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D559AB22436E5300E6A7DB /* BMKitBaseConfig.m */; };
+		26D559AF2243718300E6A7DB /* UIView+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D559AE2243718200E6A7DB /* UIView+Config.m */; };
+		26D559BD2248743800E6A7DB /* BMGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D559BC2248743800E6A7DB /* BMGCDTimer.m */; };
+		26D559C022487D6C00E6A7DB /* UIButton+BMCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D559BF22487D6C00E6A7DB /* UIButton+BMCountDown.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		260DBA4A25305B0300CA2685 /* BMButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMButton.h; sourceTree = "<group>"; };
+		260DBA4B25305B0300CA2685 /* BMButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMButton.m; sourceTree = "<group>"; };
+		260DBA4E25305B1A00CA2685 /* BMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMView.h; sourceTree = "<group>"; };
+		260DBA4F25305B1A00CA2685 /* BMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMView.m; sourceTree = "<group>"; };
+		260DBA5225305B2900CA2685 /* BMLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMLabel.h; sourceTree = "<group>"; };
+		260DBA5325305B2900CA2685 /* BMLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMLabel.m; sourceTree = "<group>"; };
+		260DBA5625305B3800CA2685 /* BMTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMTextField.h; sourceTree = "<group>"; };
+		260DBA5725305B3800CA2685 /* BMTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMTextField.m; sourceTree = "<group>"; };
+		260DBA5A25305B4A00CA2685 /* BMTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMTextView.h; sourceTree = "<group>"; };
+		260DBA5B25305B4A00CA2685 /* BMTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMTextView.m; sourceTree = "<group>"; };
+		260DBA5E25305B5E00CA2685 /* BMImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMImageView.h; sourceTree = "<group>"; };
+		260DBA5F25305B5E00CA2685 /* BMImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMImageView.m; sourceTree = "<group>"; };
+		260DBA6825305BC300CA2685 /* BMTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMTableView.h; sourceTree = "<group>"; };
+		260DBA6925305BC300CA2685 /* BMTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMTableView.m; sourceTree = "<group>"; };
+		260DBA6D25305BDC00CA2685 /* BMTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMTableViewCell.h; sourceTree = "<group>"; };
+		260DBA6E25305BDC00CA2685 /* BMTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMTableViewCell.m; sourceTree = "<group>"; };
+		260DBA7125305BF700CA2685 /* BMColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMColor.h; sourceTree = "<group>"; };
+		260DBA7225305BF700CA2685 /* BMColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMColor.m; sourceTree = "<group>"; };
+		260DBA762530614000CA2685 /* BMThem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMThem.h; sourceTree = "<group>"; };
+		260DBA772530614000CA2685 /* BMThem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMThem.m; sourceTree = "<group>"; };
+		260DBA7B2530643400CA2685 /* BMImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMImage.h; sourceTree = "<group>"; };
+		260DBA7C2530643400CA2685 /* BMImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMImage.m; sourceTree = "<group>"; };
+		26D55990224363C600E6A7DB /* BlackMoomKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackMoomKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D55993224363C600E6A7DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26D55994224363C600E6A7DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26D55996224363C600E6A7DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26D55997224363C600E6A7DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26D5599A224363C600E6A7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26D5599C224363C800E6A7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D5599F224363C800E6A7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26D559A1224363C800E6A7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D559A2224363C800E6A7DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26D559AA22436E5300E6A7DB /* BMKitBaseConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMKitBaseConfig.h; sourceTree = "<group>"; };
+		26D559AB22436E5300E6A7DB /* BMKitBaseConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMKitBaseConfig.m; sourceTree = "<group>"; };
+		26D559AD2243718200E6A7DB /* UIView+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Config.h"; sourceTree = "<group>"; };
+		26D559AE2243718200E6A7DB /* UIView+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Config.m"; sourceTree = "<group>"; };
+		26D559BB2248743800E6A7DB /* BMGCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMGCDTimer.h; sourceTree = "<group>"; };
+		26D559BC2248743800E6A7DB /* BMGCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMGCDTimer.m; sourceTree = "<group>"; };
+		26D559BE22487D6C00E6A7DB /* UIButton+BMCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BMCountDown.h"; sourceTree = "<group>"; };
+		26D559BF22487D6C00E6A7DB /* UIButton+BMCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BMCountDown.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26D5598D224363C600E6A7DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260DBA4925305AE600CA2685 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				260DBA4A25305B0300CA2685 /* BMButton.h */,
+				260DBA4B25305B0300CA2685 /* BMButton.m */,
+				260DBA4E25305B1A00CA2685 /* BMView.h */,
+				260DBA4F25305B1A00CA2685 /* BMView.m */,
+				260DBA5225305B2900CA2685 /* BMLabel.h */,
+				260DBA5325305B2900CA2685 /* BMLabel.m */,
+				260DBA5625305B3800CA2685 /* BMTextField.h */,
+				260DBA5725305B3800CA2685 /* BMTextField.m */,
+				260DBA5A25305B4A00CA2685 /* BMTextView.h */,
+				260DBA5B25305B4A00CA2685 /* BMTextView.m */,
+				260DBA5E25305B5E00CA2685 /* BMImageView.h */,
+				260DBA5F25305B5E00CA2685 /* BMImageView.m */,
+				260DBA6825305BC300CA2685 /* BMTableView.h */,
+				260DBA6925305BC300CA2685 /* BMTableView.m */,
+				260DBA6D25305BDC00CA2685 /* BMTableViewCell.h */,
+				260DBA6E25305BDC00CA2685 /* BMTableViewCell.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		260DBA6725305B7700CA2685 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				260DBA7125305BF700CA2685 /* BMColor.h */,
+				260DBA7225305BF700CA2685 /* BMColor.m */,
+				260DBA7B2530643400CA2685 /* BMImage.h */,
+				260DBA7C2530643400CA2685 /* BMImage.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		260DBA752530610900CA2685 /* BMThem */ = {
+			isa = PBXGroup;
+			children = (
+				260DBA762530614000CA2685 /* BMThem.h */,
+				260DBA772530614000CA2685 /* BMThem.m */,
+			);
+			path = BMThem;
+			sourceTree = "<group>";
+		};
+		260DBA7F2530682E00CA2685 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		26D55987224363C600E6A7DB = {
+			isa = PBXGroup;
+			children = (
+				26D55992224363C600E6A7DB /* BlackMoomKit */,
+				26D55991224363C600E6A7DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D55991224363C600E6A7DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D55990224363C600E6A7DB /* BlackMoomKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D55992224363C600E6A7DB /* BlackMoomKit */ = {
+			isa = PBXGroup;
+			children = (
+				260DBA7F2530682E00CA2685 /* NetWork */,
+				260DBA752530610900CA2685 /* BMThem */,
+				260DBA6725305B7700CA2685 /* Function */,
+				260DBA4925305AE600CA2685 /* UI */,
+				26D559A9224363F900E6A7DB /* Button */,
+				26D55993224363C600E6A7DB /* AppDelegate.h */,
+				26D55994224363C600E6A7DB /* AppDelegate.m */,
+				26D55996224363C600E6A7DB /* ViewController.h */,
+				26D55997224363C600E6A7DB /* ViewController.m */,
+				26D55999224363C600E6A7DB /* Main.storyboard */,
+				26D5599C224363C800E6A7DB /* Assets.xcassets */,
+				26D5599E224363C800E6A7DB /* LaunchScreen.storyboard */,
+				26D559A1224363C800E6A7DB /* Info.plist */,
+				26D559A2224363C800E6A7DB /* main.m */,
+				26D559AA22436E5300E6A7DB /* BMKitBaseConfig.h */,
+				26D559AB22436E5300E6A7DB /* BMKitBaseConfig.m */,
+				26D559AD2243718200E6A7DB /* UIView+Config.h */,
+				26D559AE2243718200E6A7DB /* UIView+Config.m */,
+			);
+			path = BlackMoomKit;
+			sourceTree = "<group>";
+		};
+		26D559A9224363F900E6A7DB /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				26D559BB2248743800E6A7DB /* BMGCDTimer.h */,
+				26D559BC2248743800E6A7DB /* BMGCDTimer.m */,
+				26D559BE22487D6C00E6A7DB /* UIButton+BMCountDown.h */,
+				26D559BF22487D6C00E6A7DB /* UIButton+BMCountDown.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D5598F224363C600E6A7DB /* BlackMoomKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D559A6224363C800E6A7DB /* Build configuration list for PBXNativeTarget "BlackMoomKit" */;
+			buildPhases = (
+				26D5598C224363C600E6A7DB /* Sources */,
+				26D5598D224363C600E6A7DB /* Frameworks */,
+				26D5598E224363C600E6A7DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackMoomKit;
+			productName = BlackMoomKit;
+			productReference = 26D55990224363C600E6A7DB /* BlackMoomKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26D55988224363C600E6A7DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "朱锦栋";
+				TargetAttributes = {
+					26D5598F224363C600E6A7DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 26D5598B224363C600E6A7DB /* Build configuration list for PBXProject "BlackMoomKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26D55987224363C600E6A7DB;
+			productRefGroup = 26D55991224363C600E6A7DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D5598F224363C600E6A7DB /* BlackMoomKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D5598E224363C600E6A7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D559A0224363C800E6A7DB /* LaunchScreen.storyboard in Resources */,
+				26D5599D224363C800E6A7DB /* Assets.xcassets in Resources */,
+				26D5599B224363C600E6A7DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D5598C224363C600E6A7DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260DBA782530614000CA2685 /* BMThem.m in Sources */,
+				260DBA6A25305BC300CA2685 /* BMTableView.m in Sources */,
+				260DBA4C25305B0300CA2685 /* BMButton.m in Sources */,
+				260DBA7325305BF700CA2685 /* BMColor.m in Sources */,
+				260DBA5425305B2900CA2685 /* BMLabel.m in Sources */,
+				260DBA6025305B5E00CA2685 /* BMImageView.m in Sources */,
+				26D55998224363C600E6A7DB /* ViewController.m in Sources */,
+				260DBA6F25305BDC00CA2685 /* BMTableViewCell.m in Sources */,
+				260DBA5025305B1A00CA2685 /* BMView.m in Sources */,
+				260DBA5825305B3800CA2685 /* BMTextField.m in Sources */,
+				26D559AC22436E5300E6A7DB /* BMKitBaseConfig.m in Sources */,
+				26D559AF2243718300E6A7DB /* UIView+Config.m in Sources */,
+				26D559A3224363C800E6A7DB /* main.m in Sources */,
+				26D559BD2248743800E6A7DB /* BMGCDTimer.m in Sources */,
+				26D559C022487D6C00E6A7DB /* UIButton+BMCountDown.m in Sources */,
+				260DBA5C25305B4A00CA2685 /* BMTextView.m in Sources */,
+				260DBA7D2530643400CA2685 /* BMImage.m in Sources */,
+				26D55995224363C600E6A7DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26D55999224363C600E6A7DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D5599A224363C600E6A7DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26D5599E224363C800E6A7DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D5599F224363C800E6A7DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26D559A4224363C800E6A7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26D559A5224363C800E6A7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26D559A7224363C800E6A7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlackMoomKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjd.test.BlackMoomKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26D559A8224363C800E6A7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlackMoomKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjd.test.BlackMoomKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D5598B224363C600E6A7DB /* Build configuration list for PBXProject "BlackMoomKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D559A4224363C800E6A7DB /* Debug */,
+				26D559A5224363C800E6A7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D559A6224363C800E6A7DB /* Build configuration list for PBXNativeTarget "BlackMoomKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D559A7224363C800E6A7DB /* Debug */,
+				26D559A8224363C800E6A7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26D55988224363C600E6A7DB /* Project object */;
+}
