@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIView+Config.h"
 #import "UIButton+BMCountDown.h"
+#import "BMButton.h"
 
 @interface ViewController ()
 
@@ -34,6 +35,17 @@
 //    config.backgroundColor = [UIColor redColor];
 //    self.view.config = config;
     // Do any additional setup after loading the view, typically from a nib.
+    
+//
+//    BMButton *button = [[BMButton alloc] initWithFrame:CGRectMake(100, 20, 100, 80)];
+//    [button setTitle:@"报告" forState:UIControlStateNormal];
+//    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//    button.titleLabel.font = [UIFont systemFontOfSize:12];
+//    [button setImage:[UIImage imageNamed:@"icon_report"] forState:UIControlStateNormal];
+//    button.imagePosition = BMButtonImageTop;
+//    button.space = 10;
+//    [self.view addSubview:button];
+    
 }
 
 -(void)actionCountDown:(UIButton *)sender{

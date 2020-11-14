@@ -9,17 +9,40 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+typedef enum : NSUInteger {
+    BMButtonRoutine, /**<  常规  图左文右 */
+    BMButtonImageTop, /**<  图上文下*/
+    BMButtonImageRight, /**<  图右文左*/
+    BMButtonImageBelow, /**<  图下文上*/
+}BMButtonType;
 @interface BMButton : UIButton
 
 /**
- 功能计划:
-  1.添加类型标记图文位置 如图左文右 图右文左 图上文下 图下文上
-  2.添加属性设置点击区域大小
-  3.添加工厂方法
-  4.修改属性设置方法
-  5.添加点击的block事件
- ***/
+ 设置点击区域大小
+ @param top             点击区域到按钮顶部的距离
+ @param right        点击区域到按钮右部的距离
+ @param bottom      点击区域到按钮底部的距离
+ @param left           点击区域到按钮左部的距离
+ */
+-(void)setEnlargeEdgeWithTop:(CGFloat)top right:(CGFloat)right bottom:(CGFloat)bottom left:(CGFloat)left;
+
+/**
+ 点击的block事件
+ @param controlEvents 点击方法
+ */
+- (void)addTargetEventforControlEvents:(UIControlEvents)controlEvents block:(void (^)(UIButton * button))block;
+
+/**
+ 图片位置
+ */
+@property (nonatomic,assign) BMButtonType imagePosition;
+
+/**
+ 图片与文字间隔
+ */
+@property (nonatomic,assign) NSInteger space;
+
+
 
 @end
 

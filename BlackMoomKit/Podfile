@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+
+target 'BlackMoomKit' do
+   pod 'Masonry'
+end
+
+#pod update --verbose --no-repo-update
+
+
+
